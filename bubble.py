@@ -20,8 +20,8 @@ def bubble_sort(array):
 				array[j-1] = array[j]
 
 				array[j] = temp
+	return array
 
 
 
-
-bubble_sort([3, 1, 0, 94, 32, 12, 13, 0, 4, 6, 0, 1])		
+print(bubble_sort([3, 1, 0, 94, 32, 12, 13, 0, 4, 6, 0, 1]))		
